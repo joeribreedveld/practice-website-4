@@ -1,0 +1,148 @@
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0 30%;
+    font-size: 1.6rem;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+/* Text */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: sans-serif;
+    color: black;
+}
+
+.ul-li-spacer {
+    color: gray;
+}
+
+/* Header */
+.header {
+    padding: 1.5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-title {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+.header-title-a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.header-title-a:hover {
+    color: #00A3A3;
+    text-decoration: underline;
+}
+
+.header-nav {}
+
+.header-nav-ul {
+    list-style: none;
+}
+
+.header-nav-ul-li {
+    display: inline;
+}
+
+.header-nav-ul-li-a {
+    text-decoration: none;
+    color: #00A3A3;
+    font-size: 1.8rem;
+}
+
+.header-nav-ul-li-a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+.main {
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.main-text {
+    font-size: 2rem;
+    text-align: center;
+    max-width: 50ch;
+    margin: 0 auto;
+}
+
+.main-text-span {}
+
+.main-text-span-a {
+    text-decoration: none;
+    color: #00A3A3;
+}
+
+.main-text-span-a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    padding: 1.5rem 0rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    justify-content: center;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.footer-ul-li {
+    display: inline;
+}
+
+.footer-ul-li-a {
+    text-decoration: none;
+    color: #00A3A3;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.footer-ul-li-a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        flex-direction: column;
+    }
+
+    body {
+        padding: 0 10%;
+    }
+}  
